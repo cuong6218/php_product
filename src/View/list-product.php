@@ -3,11 +3,11 @@
 <div class="container">
     <div class="row">
         <form id="form-search" method="post" action="index.php?page=search-product">
-            <input type="text" name="keyword" placeholder="keyword" />
-            <button class="btn btn-secondary" type="submit">Search</button>
+            <input type="text" name="keyword" placeholder="nhập từ khóa" />
+            <button class="btn btn-secondary" type="submit">Tìm kiếm</button>
         </form>
         <div class="col-md-3">
-            <a class="btn btn-secondary" href="index.php?page=add-product"><i class="fas fa-user-plus"></i> &nbsp;Add Product</a>
+            <a class="btn btn-secondary" href="index.php?page=add-product"><i class="fas fa-user-plus"></i> &nbsp;Thêm mặt hàng</a>
         </div>
     </div>
     <table class="table table-striped text-center">
